@@ -3,3 +3,68 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+.container-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 350px;
+}
+
+.one  {
+    width: 350px;
+    height: 100px;
+    align-items: flex-start;
+    background-color: #dfdfdf;
+    min-height: 350px;
+}
+
+/* opdracht 2.2 */
+.two {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.start {
+    width:300px;
+    margin: 10px;
+
+}
+.edhub {
+
+}
+/* opdracht 2.3*/
+
+
+.three {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#home {
+    width: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    order: 1;
+}
+#cursus{
+    border: 2px solid black;
+    order: 2;
+}
+
+#content{
+    border: 2px solid black;
+    order: 3;
+}
+
+
+.edhu {
+    border: 2px solid black;
+    order: 4;
+}
+
+/*opdracht 2.4 */
+
